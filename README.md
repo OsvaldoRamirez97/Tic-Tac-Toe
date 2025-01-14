@@ -15,7 +15,7 @@ Classic game of Tic Tac Toe
 To deploy this project 
 
 ```bash
-  git clone
+  git clone https://github.com/OsvaldoRamirez97/Tic-Tac-Toe.git
 ```
 
 ```bash
