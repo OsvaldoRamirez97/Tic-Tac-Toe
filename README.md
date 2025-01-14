@@ -26,3 +26,7 @@ To deploy this project
   npm run dev
 ```
 
+
+## Tech Stack
+
+**Client:** React, Typescript, CSS, HTML
