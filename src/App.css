@@ -1,0 +1,101 @@
+#root {
+  max-width: 1980px;
+  margin: 0 auto;
+}
+
+  .status {
+  text-align: center;
+}
+
+.board-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game {
+  display: flex;
+  justify-content: space-around;
+}
+ 
+.moves {
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  list-style-type: none;
+}
+
+.button-moves{
+  width: 100%;
+  height: 8rem;
+  font-size: 3rem;
+  color: rgb(148, 44, 174);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-align: center;
+}
+
+
+@media (min-width: 1600px) {
+  .board-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .game {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .moves {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    list-style-type: none;
+  }
+  
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .board-row {
+     justify-content: space-around;
+  }
+
+  .game {
+    display: block;
+    justify-content: space-around;
+  }
+
+  .moves {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+  }
+}
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1600px) { 
+  .board-row {
+    justify-content: space-around;
+ }
+
+ .game {
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .moves {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   width: 50%;
+ }
+
+ .button-moves{
+  height: 70px;
+  width: 250px;
+  font-size: 20px;
+}
+}
+
